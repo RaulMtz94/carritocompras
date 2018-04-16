@@ -206,7 +206,7 @@
  /* Botón */
  input[type="button"],
   input[type="submit"] {
-    background-color: rgb(230, 66, 175);
+    background-color: #000;
     border: none;
     border-radius: 6px;
     color: white;
