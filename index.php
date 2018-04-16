@@ -157,8 +157,11 @@
 
    </body>
    <style>
+       body{
+           background-image: url("imagenes/fondo.jpg");
+       }
        #login {
-    background-color: #77B0C5;
+    background-color: rgb(63, 15, 15);
     border-radius: 8px;
     box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
