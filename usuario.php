@@ -1,4 +1,16 @@
 <?php
+	session_start(); 
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<title>Validando...</title>
+	<meta charset="utf-8">
+</head>
+</head>
+<body>
+<?php
 
 $resultado="";
 if(isset($_GET['Registrar'])){
@@ -56,7 +68,8 @@ function iniciarSesion($usuario,$password,$re){
            list($name, $user, $pw) = (explode(",",$cadena));
            if($user==$usuario && $pw==$password){
             setcookie("$user","$name,$user,$pw,$re",time()+8600);
-            echo '<script> window.location="carrito.html"; </script>';
+            $_SESSION["user"] = $user;
+            echo '<script> window.location="carrito.php"; </script>';
               return true;
            }else {
                echo '<script>alert("usuario o contra incorrectos")</script>';
