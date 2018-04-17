@@ -81,7 +81,7 @@ if(isset($_SESSION['user'])) {
             <label class="bienvenido"><?php echo "Bienvenido : ",$_SESSION['user']?></label>
             
             <a class="carrito" href="logout.php"><img src="imagenes/carrito.png" width="40" height="40"  title="ir al carrito de compras"></a>
-            <a href="index.php"><img src="imagenes/logout.png" width="40" height="40"  title="cerrar sesion"></a>
+            <a href="logout.php"><img src="imagenes/logout.png" width="40" height="40"  title="cerrar sesion"></a>
    
         </div>
         <div class="cuerpo">
