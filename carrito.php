@@ -80,7 +80,7 @@ if(isset($_SESSION['user'])) {
         <div class="menu">
             <label class="bienvenido"><?php echo "Bienvenido : ",$_SESSION['user']?></label>
             
-            <a class="carrito" href="logout.php"><img src="imagenes/carrito.png" width="40" height="40"  title="ir al carrito de compras"></a>
+            <a class="carrito" href="#"><img src="imagenes/carrito.png" width="40" height="40"  title="ir al carrito de compras"></a>
             <a href="logout.php"><img src="imagenes/logout.png" width="40" height="40"  title="cerrar sesion"></a>
    
         </div>
