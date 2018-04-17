@@ -22,7 +22,7 @@ if(isset($_SESSION['user'])) {
     }
     function vercarrito(){
         for (i=0;i<arreglo_libros.length;i++) {
-        alert("imprimir",arreglo_libros[i]);
+        alert(arreglo_libros[i]);
      }
     }
 </script>
